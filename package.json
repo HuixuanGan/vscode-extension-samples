@@ -9,5 +9,8 @@
 		"auditFix": "node .scripts/run-command.js npm audit fix",
 		"update-readme": "node .scripts/update-readme.js",
 		"update-lsif": "node .scripts/update-lsif.js"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
 	}
 }
