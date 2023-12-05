@@ -12,3 +12,4 @@ install:
 # Commands to run tests on a TypeScript file
 script:
   - npx jest vscode-extension-samples/quickinput-sample/src/quickOpen.test.ts
+  - npx jest --coverage
