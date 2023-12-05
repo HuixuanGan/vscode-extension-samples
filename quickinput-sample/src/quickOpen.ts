@@ -9,7 +9,7 @@ import { Uri, window, Disposable, FileSystemError } from 'vscode';
 import { QuickPickItem } from 'vscode';
 import { workspace } from 'vscode';
 declare global {
-    var path: string;
+    let path: string;
 }
 
 /**

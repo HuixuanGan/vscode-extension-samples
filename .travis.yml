@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "14" # Specify the Node.js version
+
+# Cache dependencies for faster builds
+cache: npm
+
+# Commands to install dependencies
+install:
+  - npm install
+
+# Commands to run tests on a TypeScript file
+script:
+  - npx jest vscode-extension-samples/quickinput-sample/src/quickOpen.test.ts

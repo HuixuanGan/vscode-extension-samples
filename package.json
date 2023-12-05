@@ -11,6 +11,8 @@
 		"update-lsif": "node .scripts/update-lsif.js"
 	},
 	"devDependencies": {
-		"jest": "^29.7.0"
+		"@types/jest": "^29.5.10",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.1"
 	}
 }
