@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { quickOpen, pickFile, FileItem } from './quickOpen';
+import { quickOpen} from './quickOpen';
 
 jest.mock('vscode', () => ({
 	workspace: {
